@@ -90,12 +90,12 @@ def record(sample_rate):
             timestamp = time.time()
 
             # get values from sensor
-            acc_x = acc_data.get('x', 0)
-            acc_y = acc_data.get('y', 0)
-            acc_z = acc_data.get('z', 0)
-            gyro_x = gyro_data.get('x', 0)
-            gyro_y = gyro_data.get('y', 0)
-            gyro_z = gyro_data.get('z', 0)
+            acc_x = format(float(acc_data.get('x', 0.0)), '.8f')
+            acc_y = format(float(acc_data.get('y', 0.0)), '.8f')
+            acc_z = format(float(acc_data.get('z', 0.0)), '.8f')
+            gyro_x = format(float(gyro_data.get('x', 0.0)), '.8f')
+            gyro_y = format(float(gyro_data.get('y', 0.0)), '.8f')
+            gyro_z = format(float(gyro_data.get('z', 0.0)), '.8f')
 
             # append data row
             data.append([data_id, timestamp, acc_x, acc_y,
