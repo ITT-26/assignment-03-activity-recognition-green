@@ -98,8 +98,7 @@ def record(sample_rate):
 
         # only record if we have valid data from both sensors
         if acc_data and gyro_data:
-            # TODO: timestamp
-            timestamp = sample_index * interval
+            timestamp = time.time()
 
             # get values from sensor
             acc_x = acc_data.get('x', 0)
