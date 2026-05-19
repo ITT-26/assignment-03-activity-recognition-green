@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
+  <rect width="900" height="430" fill="#ffffff"/>
+  <text x="30" y="34" font-family="Arial" font-size="22" font-weight="bold">Top classifier configurations</text>
+  <text x="30" y="60" font-family="Arial" font-size="13" fill="#555555">Accuracy on the test split from data/</text>
+
+  <line x1="245" y1="80" x2="245" y2="375" stroke="#333333"/>
+  <line x1="245" y1="375" x2="850" y2="375" stroke="#333333"/>
+  <text x="245" y="395" font-family="Arial" font-size="12" text-anchor="middle">0.0</text>
+  <text x="548" y="395" font-family="Arial" font-size="12" text-anchor="middle">0.5</text>
+  <text x="850" y="395" font-family="Arial" font-size="12" text-anchor="middle">1.0</text>
+
+  <text x="235" y="100" font-family="Arial" font-size="12" text-anchor="end">linear / 100Hz / all / fft</text>
+  <rect x="245" y="86" width="552" height="20" fill="#4b7bec"/>
+  <text x="805" y="101" font-family="Arial" font-size="12">0.913</text>
+
+  <text x="235" y="135" font-family="Arial" font-size="12" text-anchor="end">linear / 100Hz / all / stats</text>
+  <rect x="245" y="121" width="552" height="20" fill="#4b7bec"/>
+  <text x="805" y="136" font-family="Arial" font-size="12">0.913</text>
+
+  <text x="235" y="170" font-family="Arial" font-size="12" text-anchor="end">rbf / 20Hz / acc / fft</text>
+  <rect x="245" y="156" width="537" height="20" fill="#5f8df0"/>
+  <text x="790" y="171" font-family="Arial" font-size="12">0.888</text>
+
+  <text x="235" y="205" font-family="Arial" font-size="12" text-anchor="end">rbf / 100Hz / all / fft</text>
+  <rect x="245" y="191" width="537" height="20" fill="#5f8df0"/>
+  <text x="790" y="206" font-family="Arial" font-size="12">0.888</text>
+
+  <text x="235" y="240" font-family="Arial" font-size="12" text-anchor="end">linear / 20Hz / all / stats</text>
+  <rect x="245" y="226" width="529" height="20" fill="#729bf2"/>
+  <text x="782" y="241" font-family="Arial" font-size="12">0.875</text>
+
+  <text x="235" y="275" font-family="Arial" font-size="12" text-anchor="end">rbf / 20Hz / acc / stats</text>
+  <rect x="245" y="261" width="529" height="20" fill="#729bf2"/>
+  <text x="782" y="276" font-family="Arial" font-size="12">0.875</text>
+
+  <text x="235" y="310" font-family="Arial" font-size="12" text-anchor="end">linear / 20Hz / all / fft</text>
+  <rect x="245" y="296" width="529" height="20" fill="#729bf2"/>
+  <text x="782" y="311" font-family="Arial" font-size="12">0.875</text>
+
+  <text x="235" y="345" font-family="Arial" font-size="12" text-anchor="end">rbf / 20Hz / all / fft</text>
+  <rect x="245" y="331" width="529" height="20" fill="#729bf2"/>
+  <text x="782" y="346" font-family="Arial" font-size="12">0.875</text>
+</svg>
